@@ -1,0 +1,6 @@
+# Python 3.11-3.13; end-to-end tested with Python 3.13.14.
+numpy==2.3.5
+pandas==3.0.6
+matplotlib==3.10.9
+scikit-learn==1.7.2
+joblib==1.5.3

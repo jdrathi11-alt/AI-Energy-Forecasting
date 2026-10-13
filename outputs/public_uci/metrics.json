@@ -1,0 +1,32 @@
+{
+  "selected_model": "random_forest",
+  "selection_rule": "lowest validation RMSE",
+  "candidate_forecast_days": 1433,
+  "eligible_forecast_days": 1297,
+  "excluded_forecast_days": 136,
+  "train_days": 778,
+  "validation_days": 259,
+  "test_days": 260,
+  "train_last_target": "2009-04-05 23:00:00",
+  "validation_first_origin": "2009-04-05 23:00:00",
+  "test_first_origin": "2010-01-28 23:00:00",
+  "test_metrics": {
+    "rmse_kwh": 0.5944642156399786,
+    "mae_kwh": 0.43016109918185824,
+    "r2": 0.378375929460653
+  },
+  "rmse_improvement_vs_week_percent": 27.868720735729937,
+  "evaluation_protocol": "Daily rolling origin; measured history through 23:00; 24-hour direct forecast; fixed train-only estimators.",
+  "target_unit": "kWh per hour",
+  "forecast_horizon_hours": 24,
+  "provenance": {
+    "source": "UCI measured household data",
+    "doi": "10.24432/C58K54",
+    "license": "CC BY 4.0",
+    "sha256": "4259c9d7ece5dbee9ab8d53682baac68d791c864f0f64a52b4043cb3b90894b7",
+    "python": "3.13.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1"
+  }
+}

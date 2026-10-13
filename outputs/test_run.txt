@@ -1,0 +1,13 @@
+test_chronology_and_shape (test_pipeline.PipelineTests.test_chronology_and_shape) ... ok
+test_duplicate_and_gaps (test_pipeline.PipelineTests.test_duplicate_and_gaps) ... ok
+test_fill_is_causal_and_limited (test_pipeline.PipelineTests.test_fill_is_causal_and_limited) ... ok
+test_future_cannot_change_origin_features (test_pipeline.PipelineTests.test_future_cannot_change_origin_features) ... ok
+test_invalid_values (test_pipeline.PipelineTests.test_invalid_values) ... ok
+test_reproducibility (test_pipeline.PipelineTests.test_reproducibility) ... ok
+test_simulation_conserves_energy (test_pipeline.PipelineTests.test_simulation_conserves_energy) ... ok
+test_uci_units_and_partial_hour (test_pipeline.PipelineTests.test_uci_units_and_partial_hour) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.374s
+
+OK

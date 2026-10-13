@@ -1,0 +1,32 @@
+{
+  "selected_model": "ridge",
+  "selection_rule": "lowest validation RMSE",
+  "candidate_forecast_days": 358,
+  "eligible_forecast_days": 338,
+  "excluded_forecast_days": 20,
+  "train_days": 202,
+  "validation_days": 68,
+  "test_days": 68,
+  "train_last_target": "2025-08-07 23:00:00",
+  "validation_first_origin": "2025-08-07 23:00:00",
+  "test_first_origin": "2025-10-18 23:00:00",
+  "test_metrics": {
+    "rmse_kwh": 2.1023560901385214,
+    "mae_kwh": 1.6716200309052163,
+    "r2": 0.9767928113255765
+  },
+  "rmse_improvement_vs_week_percent": 25.708039443732876,
+  "evaluation_protocol": "Daily rolling origin; measured history through 23:00; 24-hour direct forecast; fixed train-only estimators.",
+  "target_unit": "kWh per hour",
+  "forecast_horizon_hours": 24,
+  "provenance": {
+    "source": "synthetic",
+    "dataset_path": "F:\\Projects AI\\AI-Energy-Forecasting\\data\\raw\\synthetic_energy.csv",
+    "sha256": "8185a37dd702fc5578af704193840f7a01ac4ce76ef53d551f55015d1bd94c29",
+    "seed": 42,
+    "python": "3.14.7",
+    "numpy": "2.3.5",
+    "pandas": "3.0.6",
+    "sklearn": "1.7.2"
+  }
+}

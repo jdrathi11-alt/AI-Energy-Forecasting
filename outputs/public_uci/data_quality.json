@@ -1,0 +1,11 @@
+{
+  "input_rows": 34589,
+  "hourly_rows": 34589,
+  "invalid_timestamps": 0,
+  "duplicate_rows": 0,
+  "missing_before_fill": 504,
+  "imputed_hours": 82,
+  "remaining_missing": 422,
+  "first_timestamp": "2006-12-16 17:00:00",
+  "last_timestamp": "2010-11-26 21:00:00"
+}

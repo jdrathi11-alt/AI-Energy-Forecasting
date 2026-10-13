@@ -1,0 +1,12 @@
+{
+  "scenario": "Illustrative USD tariff, idealized deferrable-load scenario",
+  "requested_shift_kwh": 10.0,
+  "actual_shift_kwh": 10.0,
+  "max_shift_per_hour_kwh": 3.0,
+  "total_energy_kwh": 1253.5215707920438,
+  "forecast_bill_before_usd": 169.97716456783868,
+  "forecast_bill_after_usd": 168.47716456783868,
+  "modeled_bill_difference_usd": 1.5,
+  "not_realized_savings": true,
+  "limitations": "No equipment schedules, losses, demand charges, capacity verification, or real business cost validation."
+}

@@ -1,0 +1,11 @@
+{
+  "input_rows": 8761,
+  "hourly_rows": 8760,
+  "invalid_timestamps": 0,
+  "duplicate_rows": 1,
+  "missing_before_fill": 20,
+  "imputed_hours": 20,
+  "remaining_missing": 0,
+  "first_timestamp": "2025-01-01 00:00:00",
+  "last_timestamp": "2025-12-31 23:00:00"
+}
